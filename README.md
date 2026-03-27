@@ -38,14 +38,14 @@ These patterns support later pipelines, embeddings, and retrieval.
 
 You'll work with just these files as you update authorship and experiment:
 
-- **notebooks/nlp_corpus_explore_case.ipynb** - notebook version
-- **src/nlp/nlp_corpus_explore_case.py** - Python script
+- **notebooks/nlp_corpus_explore_dsmorgancodes.ipynb** - notebook version
+- **src/nlp/nlp_corpus_explore_dsmorgancodes.py** - Python script
 - **pyproject.toml** - project configuration and dependencies
 - **zensical.toml** - project metadata
 
 ## First: Follow These Instructions
 
-Follow the [step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/) to complete:
+Follow the [step-by-step workflow guide](https://dsmorgancodes.github.io/pro-analytics-02/workflow-b-apply-example-project/) to complete:
 
 1. Phase 1. **Start & Run**
 2. Phase 2. **Change Authorship**
@@ -125,7 +125,7 @@ uv run python -m nlp.nlp_corpus_explore_case
 
 # Then, open the notebook.
 # IMPORTANT: Select the kernel and Run All:
-# notebooks/nlp_corpus_explore_case.ipynb
+# notebooks/nlp_corpus_explore_dsmorgancodes.ipynb
 
 uv run ruff format .
 uv run ruff check . --fix
