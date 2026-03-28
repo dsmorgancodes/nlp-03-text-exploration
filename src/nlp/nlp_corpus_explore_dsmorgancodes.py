@@ -1,5 +1,5 @@
 """
-nlp_corpus_explore_case.py - Module 3 Script
+nlp_corpus_explore_dsmorgancodes.py - Module 3 Script
 
 Purpose
 
@@ -21,7 +21,7 @@ Notes
 
 Run from root project folder with:
 
-  uv run python -m nlp.nlp_corpus_explore_case
+  uv run python -m nlp.nlp_corpus_explore_dsmorgancodes
 """
 
 # ============================================================
@@ -294,7 +294,9 @@ ax = plt.gca()
 ax.tick_params(axis="x", labelrotation=45)
 
 # Set the title and labels for the axes of the plot.
-plt.title("Case Example: Top Tokens (Dog Category)\n(Close this window to continue)")
+plt.title(
+    "dsmorgancodes Example: Top Tokens (Dog Category)\n(Close this window to continue)"
+)
 plt.xlabel("Token")
 plt.ylabel("Frequency")
 
@@ -310,7 +312,7 @@ plt.show()
 # Section 10. Interpret Results and Identify Patterns
 # ============================================================
 
-print("\nCASE GENERAL OBSERVATIONS:")
+print("\ndsmorgancodes GENERAL OBSERVATIONS:")
 
 print("- Tokens cluster by category (dog, cat, car, truck).")
 print("- Words that appear in similar contexts behave similarly.")
